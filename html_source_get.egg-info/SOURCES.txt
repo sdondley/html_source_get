@@ -1,0 +1,10 @@
+README.md
+setup.py
+html_source_get/__init__.py
+html_source_get/get_html.py
+html_source_get/html_source_get.py
+html_source_get.egg-info/PKG-INFO
+html_source_get.egg-info/SOURCES.txt
+html_source_get.egg-info/dependency_links.txt
+html_source_get.egg-info/entry_points.txt
+html_source_get.egg-info/top_level.txt

@@ -1,1 +1,1 @@
-from .core import get_the_html
+from .core import get_html

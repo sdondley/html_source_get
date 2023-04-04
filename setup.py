@@ -3,11 +3,12 @@ from setuptools import setup, find_packages
 setup(
     entry_points={
         'console_scripts': [
-            'html-source-get=get_html:main',
+            'html-source-get=html_source_get.get_html:main',
         ],
     },
     name='html-source-get',
     version='0.1',
+    package_data={"html_source_get": ["applescripts/*"]},
     packages=find_packages(),
     install_requires=[
     ],

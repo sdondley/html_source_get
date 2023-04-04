@@ -3,10 +3,10 @@ from setuptools import setup, find_packages
 setup(
     entry_points={
         'console_scripts': [
-            'get_html = get_html:main',
+            'html-source-get=html_source_get.get_html:main',
         ],
     },
-    name='html_source_get',
+    name='html-source-get',
     version='0.1',
     packages=find_packages(),
     install_requires=[

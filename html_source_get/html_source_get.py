@@ -1,7 +1,7 @@
 import subprocess
 
 # Get the article html
-def get_html(url=None):
+def get_the_html(url=None):
     if url:
         script_path = '../applescripts/fetch_html.osa'
         result = subprocess.run([script_path, url], capture_output=True, text=True)

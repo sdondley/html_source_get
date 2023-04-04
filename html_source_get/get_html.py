@@ -1,7 +1,7 @@
 # get_html.py
 import sys
 
-from html_source_get.html_source_get import get_html
+from html_source_get.html_source_get import get_html_source
 
 def main(url=None):
     return get_html(url)
